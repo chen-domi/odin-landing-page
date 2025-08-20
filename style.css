@@ -2,10 +2,12 @@
 
 }
 
-.nav {
-
+.navigation {
+    display: inline-block;
 }
-
+.header {
+}
+.header,
 .first-section {
     background-color: #1F2937;
     color: white;
@@ -23,6 +25,6 @@
     background-color: #3882F6;
 }
 
-.section {
-    
+.footer {
+    background-color: #1F2937;
 }
