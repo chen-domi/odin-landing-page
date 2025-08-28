@@ -1,26 +1,27 @@
 * {
   box-sizing: border-box;
-  font-family: roboto;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 .header {
-  border: 4px solid red;
+  /* border: 4px solid red; */
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 20px 100px;
   background-color: #1F2937;
   color: white;
 }
 
 .logo {
-  border: 4px solid red;
+  /* border: 4px solid red; */
   align-content: center;
+  font-weight: 900;
 }
 .nav {
   display: flex;
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 
 .header-link,
@@ -36,7 +37,7 @@
   color: white;
   background-color: #1F2937;
   padding: 100px 100px;
-  border: 4px solid blue;
+  /* border: 4px solid blue; */
   margin: -20px 0 0 0;
   min-height: 300px; /* allow the section to grow taller when needed */
   width: auto;
@@ -47,7 +48,7 @@
 }
 
 .left-side-text {
-    border: 8px solid orange;
+    /* border: 8px solid orange; */
     flex: 1 1 60%;
 }
 
@@ -55,13 +56,13 @@
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 
 .hero-secondary-text {
   font-size: 18px;
   color: #E5E7EB;
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 
 .hero-button {
@@ -70,11 +71,11 @@
   border: #3882f6;
   padding:5px 20px;
   border-radius: 5px;
-  border: 4px solid red;
+  /* border: 4px solid red; */
 }
 
 .hero-img {
-    border: 4px solid red;
+    /* border: 4px solid red; */
     /* make this column take a sensible portion of the row but not exceed the viewport */
     flex: 0 0 35%;
     max-width: 45%;
@@ -109,20 +110,20 @@
 }
 
 .section-two {
-    border: 4px solid red;
+    /* border: 4px solid red; */
     justify-items: center;
     padding: 40px
 
 }
 .two-heading {
-    border: 4px solid red;
+    /* border: 4px solid red; */
     padding: 20px;
     font-size: 36px;
     font-weight: 900;
 }
 
 .cards {
-    border: 4px solid yellow;
+    /* border: 4px solid yellow; */
     list-style-type: none;
     padding: 10px 10px;
     display: flex;
@@ -133,35 +134,72 @@
 } 
 
 .card {
-    border: 4px solid purple;
+    /* border: 4px solid purple; */
     display: flex;
     flex-direction: column;
 }
 
 .two-imgs {
-    border: 4px solid pink;
+    /* border: 4px solid pink; */
 }
 
 .img-subtext {
-    border: 4px solid green;
+    /* border: 4px solid green; */
     text-align: center;
 }
 
 .section-three {
     background-color: #E5E7EB;
-    border: 4px solid greenyellow;
+    /* border: 4px solid greenyellow; */
     padding: 100px 300px;
 }
 
 .testimonial {
-  border: 4px solid brown;
+  /* border: 4px solid brown; */
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
 .author {
-  border: 4px solid blue;
+  /* border: 4px solid blue; */
   text-align: right;
+}
 
+.section-four {
+  /* border: 4px solid red; */
+  background-color: #3882F6;
+  color:#E5E7EB;
+  margin: 60px 100px;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10em;
+  border-radius: 10px;
+
+}
+
+.section-four-text {
+  /* border: 4px solid yellow; */
+  flex: 1;
+
+}
+
+.call-to-action {
+  font-weight: 900;
+  font-size: 25px;
+  color: #F9FAF8;
+}
+
+.call-to-action-subtext {
+    color: #E5E7EB;
+}
+
+.button2 {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 10px;
 }
